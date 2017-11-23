@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void videoView(){
         videoView=(VideoView)findViewById(R.id.videoView);
-        Uri uri=Uri.parse("android.resource://com.example.parteek.icr/raw/videoplayback");
+        Uri uri=Uri.parse("android.resource://com.example.parteek.icr/raw/video");
         videoView.setVideoURI(uri);
         videoView.requestFocus();
         videoView.start();
